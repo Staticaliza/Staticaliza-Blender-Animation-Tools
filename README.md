@@ -1,6 +1,6 @@
-# What is this?
+# Staticaliza's Blender Animations Tools for Roblox/Blender
 
-This Blender extension, which only works in Blender 4.3.0, adds more features and is compatable with Cautioned/Blender-Animations-Plugin (https://github.com/Cautioned/Blender-Animations-Plugin).
+This Blender extension, which only works in Blender 4.3.0, adds more features and is compatable with Cautioned/Blender-Animations-Plugin (https://github.com/Cautioned/Blender-Animations-Plugin), which is used to support Roblox rigs into blender.
 
 This extension adds:
 - Onion Skins (Shortcut F)
