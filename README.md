@@ -1,17 +1,42 @@
-# Staticaliza's Blender Animations Tools for Roblox/Blender
+# Staticaliza's Blender Animation Tools for Roblox/Blender
 
-This Blender extension, which only works in Blender 4.3.0, adds more features and is compatable with Cautioned/Blender-Animations-Plugin (https://github.com/Cautioned/Blender-Animations-Plugin), which is used to support Roblox rigs into blender.
+This Blender extension, which currently only supports Blender 4.3.0, adds additional Roblox animation tools and works alongside [Cautioned/Blender-Animations-Plugin](https://github.com/Cautioned/Blender-Animations-Plugin), which supports importing and animating Roblox rigs in Blender.
 
-It is recommended to install the Roblox Blender Animation Tools plugin (https://create.roblox.com/store/asset/118148792788940), which allows importing avatar rigs into blender using Cautioned/Blender-Animations-Plugin.
+It is recommended to install the [Roblox Blender Animation Tools plugin](https://create.roblox.com/store/asset/118148792788940), which allows avatar rigs to be imported into Blender using Cautioned's animation plugin.
 
-This extension adds:
-- Onion Skins (Shortcut F)
-- Onion Pins (Shortcut Shift + F)
-- Unparent with start/end keyframes (Alt + F)
-- Dynamic Parent start/end keyframes (Shift + Alt + F)
-- Material handler with rigs
-- Auto-imports latest version of Cautioned/Blender-Animations-Plugin
+## Automatic Setup
 
-These only work in Pose mode.
+Install `Staticaliza's Blender Animation Tools.zip` through Blender's **Install from Disk** option.
 
-Credits included for the "Dynamic Parent" 2.0.2 (Blender 4 compatable) extension.
+The setup extension automatically downloads, installs, and enables the latest versions of:
+
+- **Roblox Animator**: Cautioned's Blender Animations Plugin
+- **Roblox Animator Utils**: Staticaliza's Blender Animation Tools
+
+The setup extension also displays the installed version of each extension. Downloaded temporary files are automatically removed after installation.
+
+## Features
+
+- Onion Skins (`F`)
+- Onion Pins (`Shift + F`)
+- Unparent with start and end keyframes (`Alt + F`)
+- Dynamic Parent with start and end keyframes (`Shift + Alt + F`)
+- Automatic material handling for imported rigs
+- Smart Material Import
+- Automatic Nodes-only armature generation
+- Automatic matching-part-to-bone constraints
+- Automatic hiding of generated face bones and weld bones
+- Automatic installation and updating of Cautioned's latest Roblox Animator release
+
+The animation shortcuts are intended for use in Pose Mode.
+
+## Interface
+
+The extensions appear in Blender's N-panel as:
+
+- **Roblox Animator**
+- **Roblox Animator Utils**
+
+## Credits
+
+Includes code and functionality from the **Dynamic Parent 2.0.2** extension, updated for Blender 4 compatibility.
