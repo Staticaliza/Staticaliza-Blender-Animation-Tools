@@ -10,4 +10,4 @@ This extension adds:
 
 These only work in Pose mode.
 
-Credits to Roman Volodin, roman.volodin@gmail.com for their "Dynamic Parent" 2.0.2 (Blender 4 compatable) extension.
+Credits included for the "Dynamic Parent" 2.0.2 (Blender 4 compatable) extension.
