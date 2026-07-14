@@ -13,7 +13,7 @@ The setup extension automatically downloads, installs, and enables the latest ve
 - **Roblox Animator**: Cautioned's Blender Animations Plugin
 - **Roblox Animator Utils**: Staticaliza's Blender Animation Tools
 
-The setup extension also displays the installed version of each extension. Downloaded temporary files are automatically removed after installation.
+The setup extension displays the installed version of each extension. Downloaded and repackaged temporary files are automatically removed after installation.
 
 ## Features
 
@@ -21,14 +21,18 @@ The setup extension also displays the installed version of each extension. Downl
 - Onion Pins (`Shift + F`)
 - Unparent with start and end keyframes (`Alt + F`)
 - Dynamic Parent with start and end keyframes (`Shift + Alt + F`)
-- Automatic material handling for imported rigs
-- Smart Material Import
+- Smart material handling for imported Roblox rigs
+- Material cleanup for disconnecting Base Color and Alpha inputs
 - Automatic Nodes-only armature generation
-- Automatic matching-part-to-bone constraints
+- Nodes only as the default option in Roblox Animator's Generate Armature dialog
+- Automatic matching-part-to-bone constraints after armature generation
 - Automatic hiding of generated face bones and weld bones
-- Automatic installation and updating of Cautioned's latest Roblox Animator release
+- Global/Local transform-orientation toggle (`Y`)
+- Manual Global/Local orientation controls under Materials
+- Automatic installation and updating of the latest Roblox Animator release
+- Version information for Roblox Animator and Roblox Animator Utils
 
-The animation shortcuts are intended for use in Pose Mode.
+The animation shortcuts are intended for use in Pose Mode. The Global/Local transform-orientation shortcut works in Object Mode and Pose Mode.
 
 ## Interface
 
@@ -36,6 +40,8 @@ The extensions appear in Blender's N-panel as:
 
 - **Roblox Animator**
 - **Roblox Animator Utils**
+
+The Roblox Animator Utils panel includes Materials, transform-orientation controls, compatibility settings, and the Nodes-only armature-generation action.
 
 ## Credits
 
