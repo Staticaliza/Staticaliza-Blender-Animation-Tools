@@ -2,7 +2,7 @@
 
 Staticaliza's Blender Animation Tools installs [Cautioned's Roblox Animator](https://github.com/Cautioned/Blender-Animations-Plugin) and adds the **Roblox Animator Utils** workflow for importing, preparing, animating, and exporting Roblox rigs.
 
-Roblox Animator Utils 1.6.6 supports **Blender 4.2 through Blender 5.2**. Most animation tools are intended for Pose Mode.
+Roblox Animator Utils 1.6.9 supports **Blender 4.2 through Blender 5.2**. Most animation tools are intended for Pose Mode.
 
 ## Installation
 
@@ -20,14 +20,14 @@ The **Install Roblox Plugins** button opens the recommended [Roblox Blender Anim
 
 ## Features
 
-- **Animation Tools**: Dynamic Parent, Dynamic Unparent, Surface Contact, bone-attached cameras, and bundled scene setup under one `Ctrl + F` menu and N-panel group.
-- **Onion Tools**: Mesh and bone previews, Smart Pins, pin pivots, and connected-object surface placement.
-- **Surface Contact**: Collision boundaries for feet, hands, limbs, IK endpoints, floors, walls, slopes, animated surfaces, and visible rig objects.
-- **Camera Tools**: Bone-tip cameras, adjustable FOV presets, local-axis orientation, attached-object visibility, and camera-view keyframing.
+- **Animation Tools**: Dynamic Parent, Dynamic Unparent, Surface Contact, and bone-attached cameras under one `Ctrl + F` menu and N-panel group.
+- **Onion Tools**: Mesh and bone previews, Smart Pins, pin pivots, connected-object surface placement, and snap rings.
+- **Surface Contact**: Collision-safe Smart Pin contacts with blended limb aiming for feet, hands, IK endpoints, floors, walls, slopes, animated surfaces, and visible rig objects.
+- **Camera Tools**: Bone-tip cameras, adjustable FOV presets, local-axis orientation, default attached-object hiding, and keyframing that enters camera view.
 - **Rig Setup**: Automatic Local Y-axis armatures, matching-part constraints, duplicate-weld prevention, helper-bone hiding, and multi-rig scene detection.
 - **Materials**: Smart material import, safe Base Color and Alpha clearing, per-rig texture isolation, viewport standardization, and optional clothing-clipping prevention.
 - **Export**: Dynamic relationships and contacts are densely evaluated through Roblox Animator for smooth Roblox playback.
-- **Scene Setup**: Loads the bundled template, packed Baseplate texture, saved UI layout, and viewport shading after warning about unsaved changes.
+- **Scene Setup**: A standalone panel below Transform Tools that loads the bundled template, packed Baseplate texture, saved UI layout, and viewport shading after warning about unsaved changes.
 
 Export each Roblox rig into its own folder. If Roblox exports overwrite PNG files before Blender imports them, the original texture data cannot be recovered.
 
