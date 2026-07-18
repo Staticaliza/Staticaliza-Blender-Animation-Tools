@@ -4,6 +4,7 @@ Staticaliza's Blender Animation Tools is a Blender extension package for importi
 
 ## Compatibility
 
+- Roblox Animator Utils 1.6.1
 - Blender 4.2 through Blender 5.2
 - Roblox Animator 2.6.3 and compatible newer releases
 - Windows, macOS, and Linux where Blender extensions and Roblox Animator are supported
@@ -45,7 +46,7 @@ These plugins export Roblox rigs in the format consumed by Roblox Animator's Ble
 
 - Loads the bundled animation template with its saved UI layout and viewport shading.
 - Includes a packed Baseplate texture that remains available on other devices and through undo operations.
-- Uses separate Blender 4.x and Blender 5.x-compatible template files.
+- Uses one bundled template compatible with the supported Blender range.
 - Warns before replacing the current scene and discarding unsaved changes.
 
 ### Onion Tools
@@ -69,6 +70,20 @@ These plugins export Roblox rigs in the format consumed by Roblox Animator's Ble
 - Sparse runtime transition keys instead of inserting keys on every frame.
 - Automatic dense evaluation when exporting through Roblox Animator.
 - Clear controls in standard mode and optional manual Bake controls in Advanced Mode.
+
+### Surface Contact
+
+- Locks the selected bone's connected object hull against the nearest floor, wall, slope, or custom mesh.
+- Includes rigidly welded, layered, and weighted meshes connected to the same numbered bone family.
+- Uses a direct world-space bone lock instead of stacking another IK solver, preventing torso movement from forcing the contacted object through a surface.
+- Works alongside an existing IK setup and hands control back to its original target when the contact is released.
+- Keeps contacts isolated by segment, so a later contact cannot pull a limb away from the current one while seeking or playing.
+- Creates an off key on the frame before contact and an on key at contact start, preventing the lock from affecting earlier animation.
+- Uses stepped influence states with Automatic keyframe handles rather than Automatic Clamped handles.
+- Releases without a visible pose jump.
+- Follows animated contact surfaces and preserves contacts after saving and reopening the project.
+- Displays active contacts with a hot-pink surface guide in the 3D Viewport.
+- Includes contact-controlled bones in Roblox Animator's dense export evaluation.
 
 ### Transform Tools
 
@@ -114,6 +129,7 @@ These plugins export Roblox rigs in the format consumed by Roblox Animator's Ble
 - Hides weld bones, face bones, numbered helper bones, and auxiliary bone collections in standard mode.
 - Hides matching `__NameMeta` empty objects from the viewport and selection.
 - Hides bone axes, labels, relationship lines, and advanced Roblox Animator panels in standard mode.
+- When bone names are enabled, selecting bones temporarily shows only the active bone's label using Blender's native label styling; deselecting all bones restores every label.
 - Restores advanced panels and auxiliary controls when Advanced Mode is enabled.
 - Uses Automatic keyframe handles rather than Automatic Clamped handles.
 - Expands a newly created Dope Sheet channel when its first keyframe is inserted.
@@ -143,6 +159,7 @@ Advanced Mode is disabled by default. Enabling it exposes detailed controls such
 - Roblox Animator armature-generation and rigging controls
 - Weld, face, helper, axis, label, and relationship-line visibility
 - Additional Roblox Animator account, validation, import, mapping, and export options
+- Surface-detection filtering
 
 ## Release Files
 
