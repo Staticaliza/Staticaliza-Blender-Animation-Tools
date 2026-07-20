@@ -1,5 +1,7 @@
 # Staticaliza's Blender Animation Tools for Roblox
 
+![Staticaliza's Blender Animation Tools](docs/logo.png)
+
 Staticaliza's Blender Animation Tools installs [Cautioned's Roblox Animator](https://github.com/Cautioned/Blender-Animations-Plugin) and adds the **Roblox Animator Utils** workflow for importing, preparing, animating, and exporting Roblox rigs.
 
 Roblox Animator Utils supports **Blender 4.2 through Blender 5.2**. Most animation tools are intended for Pose Mode.
@@ -21,8 +23,9 @@ The **Install Roblox Plugins** button opens the recommended [Roblox Blender Anim
 ## Features
 
 - **Animation Tools**: Dynamic Parent, Dynamic Unparent, Surface Contact, and bone-attached cameras under one `Ctrl + F` menu and N-panel group.
-- **Onion Tools**: Mesh and bone previews, Smart Pins, pin pivots, connected-object surface placement, and snap rings.
-- **Surface Contact**: Collision-safe Smart Pin contacts with blended limb aiming for feet, hands, IK endpoints, floors, walls, slopes, animated surfaces, and visible rig objects.
+- **Onion Tools**: Mesh and bone previews, Smart Pins, draggable surface-snapped pin targets, pin pivots, connected-object surface placement, and snap rings.
+- **Surface Contact**: Dot-to-dot Smart endpoint placement, translation gizmos, no-stretch reach limits, moving-surface tracking, and existing IK-chain reuse for feet, hands, floors, walls, slopes, and visible rig objects. Contact constrains only the endpoint marker, not the connected mesh hull.
+- **State Feedback**: Parent, Unparent, and Surface Contact states merge their bone colors and display ordered status labels. Onion Pin remains a yellow marker-only state, and overlapping Pin/Contact markers use a blended color.
 - **Camera Tools**: Bone-tip cameras, adjustable FOV presets, local-axis orientation, default attached-object hiding, and keyframing that enters camera view.
 - **Rig Setup**: Automatic Local Y-axis armatures, matching-part constraints, duplicate-weld prevention, helper-bone hiding, and multi-rig scene detection.
 - **Materials**: Smart material import, safe Base Color and Alpha clearing, per-rig texture isolation, viewport standardization, and optional clothing-clipping prevention.
