@@ -24,19 +24,19 @@ The **Install Roblox Plugins** button opens the recommended [Roblox Blender Anim
 
 ## Features
 
-- **Animation Tools**: Dynamic Parent, Dynamic Unparent, Surface Contact, and bone-attached cameras in the `Ctrl + F` menu and N-panel.
+- **Animation Tools**: Dynamic Parent, Dynamic Unparent, Surface Contact, and single- or multi-bone cameras in the `Ctrl + F` menu and N-panel.
 - **Active Armatures**: Edit one or several rigs in Pose Mode while inactive rigs keep their visible meshes but hide bones, colors, names, pins, contacts, and onion previews.
 - **Rig Cleanup**: Delete an imported rig from Active Armatures with one undoable action, including its exclusive collection, parts, helpers, animation data, materials, and textures while preserving shared assets.
 - **Multi-Rig Feedback**: Same-named bones stay tied to the correct rig. Enabled rigs receive yellow rig labels, the active rig is emphasized, and inactive rig labels appear on hover.
 - **Onion Tools**: Per-rig mesh and bone previews, selectable yellow Onion Pins and pink Contact targets, free center or axis dragging, connected-object placement, and snap rings.
 - **Pin Transforms**: Select pins alone or Shift-select them with bones, use `G`, `R`, and `S`, and switch between Bone and Object pivots without showing Blender's bone gizmo for pin-only selection.
 - **Surface Contact**: Create contacts for one or several selected endpoints at once, with no-stretch simulation, exact dot-to-dot locking, one-sided collision, surface-gliding targets, moving-surface tracking, and reuse of genuine existing IK chains.
-- **State Feedback**: Parent, Unparent, and Surface Contact states merge their bone colors, display ordered status labels, and keep their generated animation channels below ordinary bone channels. Onion Pin remains a yellow marker-only state, and overlapping Pin/Contact markers use a blended color.
+- **State Feedback**: Parent, Unparent, and Surface Contact states merge their bone colors and display ordered status labels. Ordinary bone channels stay alphabetical above consistently ordered special channels. Onion Pin remains a yellow marker-only state, and overlapping Pin/Contact markers use a blended color.
 - **Viewport Workflow**: Free-view position, shading, lighting, overlays, clipping, lens, and gizmo settings stay synchronized across animation workspaces; Animate and Graph also share N-sidebar visibility, active tab, and scroll position.
-- **Camera Tools**: Bone-tip cameras, adjustable FOV presets, local-axis orientation, attached-object hiding, and keyframing that enters camera view.
+- **Camera Tools**: Attach bone-tip cameras to one or several selected bones, with adjustable FOV presets, local-axis orientation, attached-object hiding, and keyframing that enters camera view.
 - **Rig Setup**: New rigs enter Pose Mode automatically, Action channels expand to the bone level, and generated rigs receive Local Y-axis armatures, matching-part constraints, duplicate-weld prevention, and helper-bone hiding.
 - **Materials**: Smart material import, safe Base Color and Alpha clearing, per-rig texture isolation, viewport standardization, and optional clothing-clipping prevention.
-- **Export**: Dynamic relationships and contacts are densely evaluated through Roblox Animator for smooth Roblox playback.
+- **Export**: Dynamic relationships and contacts are densely evaluated through Roblox Animator, while untouched bones with no authored keys are omitted for partial-body animation layering.
 - **Scene Setup**: A standalone panel below Transform Tools that loads the bundled template, packed Baseplate texture, saved UI layout, and viewport shading after warning about unsaved changes.
 
 Export each Roblox rig into its own folder. If Roblox exports overwrite PNG files before Blender imports them, the original texture data cannot be recovered.
