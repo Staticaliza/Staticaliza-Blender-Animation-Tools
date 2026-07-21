@@ -26,7 +26,7 @@ The **Install Roblox Plugins** button opens the recommended [Roblox Blender Anim
 
 - **Animation Tools**: Dynamic Parent, Dynamic Unparent, Surface Contact, and bone-attached cameras in the `Ctrl + F` menu and N-panel.
 - **Active Armatures**: Edit one or several rigs in Pose Mode while inactive rigs keep their visible meshes but hide bones, colors, names, pins, contacts, and onion previews.
-- **Rig Cleanup**: Delete an imported rig from Active Armatures with confirmation, including its exclusive collection, parts, helpers, animation data, materials, and textures while preserving shared assets.
+- **Rig Cleanup**: Delete an imported rig from Active Armatures with one undoable action, including its exclusive collection, parts, helpers, animation data, materials, and textures while preserving shared assets.
 - **Multi-Rig Feedback**: Same-named bones stay tied to the correct rig. Enabled rigs receive yellow rig labels, the active rig is emphasized, and inactive rig labels appear on hover.
 - **Onion Tools**: Per-rig mesh and bone previews, selectable yellow Onion Pins and pink Contact targets, free center or axis dragging, connected-object placement, and snap rings.
 - **Pin Transforms**: Select pins alone or Shift-select them with bones, use `G`, `R`, and `S`, and switch between Bone and Object pivots without showing Blender's bone gizmo for pin-only selection.
