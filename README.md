@@ -4,9 +4,9 @@
   <img src="docs/logo.png" alt="Staticaliza's Blender Animation Tools">
 </p>
 
-Roblox Animator Utils supports **Blender 4.2 through Blender 5.2**. Most animation tools are intended for Pose Mode.
-
 Staticaliza's Blender Animation Tools installs [Cautioned's Roblox Animator](https://github.com/Cautioned/Blender-Animations-Plugin) and adds the **Roblox Animator Utils** workflow for importing, preparing, animating, and exporting Roblox rigs.
+
+The complete toolset supports **Blender 4.2 through Blender 5.2**. Most animation tools are intended for Pose Mode.
 
 ## Installation
 
@@ -61,6 +61,12 @@ Advanced Mode is disabled by default. Enabling it exposes Materials, Miscellaneo
 | --- | --- | --- |
 | `Staticaliza's Blender Animation Tools.zip` | Lightweight setup/downloader | Setup code changes |
 | `src/staticaliza_blender_animation_tools.zip` | Roblox Animator Utils source payload | Utils code, template, or version changes |
+
+Contributor and release instructions are in [CONTRIBUTING.md](CONTRIBUTING.md).
+
+## Author
+
+This project and its releases are authored by **Staticaliza** (`413584@gmail.com`).
 
 ## Credits
 
