@@ -31,7 +31,7 @@ The setup downloads the latest Roblox Animator release and the latest Utils and 
 
 To update later, open **Roblox Animator Utils > Extension** and choose the update action. It downloads and hot-loads the latest versions of all three private runtimes; Impact has no separate in-panel updater.
 
-The **Install Roblox Plugins** button opens the recommended [Roblox Blender Animation Tools](https://create.roblox.com/store/asset/118148792788940) and [companion animation plugin](https://create.roblox.com/store/asset/16708835782).
+The **Install Roblox Plugins** button opens the recommended [Roblox Blender Animation Tools](https://create.roblox.com/store/asset/118148792788940) and [**Blender Animations (ultimate edition)**](https://create.roblox.com/store/asset/16708835782/Blender-Animations-ultimate-edition).
 
 ## Features
 
