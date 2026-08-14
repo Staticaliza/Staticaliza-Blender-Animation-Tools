@@ -24,7 +24,7 @@ Setup installs Roblox Animator first, Roblox Animator Utils second, and Roblox A
 
 ## Installation
 
-1. Download [`src/staticaliza_blender_animation_tools_setup.zip`](src/staticaliza_blender_animation_tools_setup.zip).
+1. Download `staticaliza_blender_animation_tools.zip` from the [latest GitHub release](https://github.com/Staticaliza/Staticaliza-Blender-Animation-Tools/releases/latest).
 2. In Blender, open **Edit > Preferences > Get Extensions**.
 3. Choose **Install from Disk** and select the ZIP.
 4. Enable **Staticaliza's Blender Animation Tools** if Blender does not enable it automatically. Setup downloads and enables Roblox Animator, Utils, and Impact.
@@ -62,11 +62,11 @@ Advanced Mode is disabled by default. Enabling it exposes Materials, Miscellaneo
 
 ## Release File
 
-The public release contains one installer and two distinct Staticaliza runtime payloads:
+GitHub Releases contains the installer, while `src/` contains the two distinct runtime payloads it downloads:
 
 | File | Purpose |
 | --- | --- |
-| `src/staticaliza_blender_animation_tools_setup.zip` | Installer/updater for Roblox Animator, Utils, and Impact |
+| GitHub Release asset: `staticaliza_blender_animation_tools.zip` | Installer/updater for Roblox Animator, Utils, and Impact |
 | `src/staticaliza_blender_animation_tools_utils.zip` | Roblox Animator Utils 1.7.0 only (`staticaliza_blender_animation_tools_utils`) |
 | `src/staticaliza_blender_animation_tools_impact.zip` | Roblox Animator Impact 1.0.0 only (`staticaliza_blender_animation_tools_impact`) |
 
