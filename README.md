@@ -4,13 +4,13 @@
   <img src="docs/logo.png" alt="Staticaliza's Blender Animation Tools">
 </p>
 
-The Setup extension installs three focused Blender extensions and N-panels:
+One Blender extension provides three focused N-panels:
 
 - **Roblox Animator** — Cautioned's importer, rigging, animation, and export workflow.
 - **Roblox Animator Utils** — Staticaliza's animation, contact-pin, ragdoll, camera, onion-skin, and rig utilities.
 - **Roblox Animator Impact** — Staticaliza's anime impact-frame authoring and preview renderer.
 
-Blender Preferences shows separate entries for Roblox Animator, Roblox Animator Utils, and Roblox Animator Impact. Setup is only the installer/updater and does not privately embed the runtime extensions.
+Blender Preferences shows one entry, **Staticaliza's Blender Animation Tools**. Roblox Animator, Utils, and Impact are private modules inside that extension and retain separate N-panel tabs.
 
 The complete toolset supports **Blender 4.2 through Blender 5.2**. Most animation tools are intended for Pose Mode.
 
@@ -20,16 +20,16 @@ The complete toolset supports **Blender 4.2 through Blender 5.2**. Most animatio
 - **Roblox Animator Impact:** 1.0.0
 - **Extension Setup:** 1.0.0
 
-Setup installs Roblox Animator first, Roblox Animator Utils second, and Roblox Animator Impact third.
+The unified extension registers Roblox Animator first, Roblox Animator Utils second, and Roblox Animator Impact third.
 
 ## Installation
 
 1. Download `staticaliza_blender_animation_tools.zip` from the [latest GitHub release](https://github.com/Staticaliza/Staticaliza-Blender-Animation-Tools/releases/latest).
 2. In Blender, open **Edit > Preferences > Get Extensions**.
 3. Choose **Install from Disk** and select the ZIP.
-4. Enable **Staticaliza's Blender Animation Tools** if Blender does not enable it automatically. Setup downloads and enables Roblox Animator, Utils, and Impact.
+4. Enable **Staticaliza's Blender Animation Tools** if Blender does not enable it automatically. No child extensions need to be installed separately.
 
-To update later, open **Roblox Animator Utils > Extension** and choose **Install Latest Extensions**. That one action updates Roblox Animator, Utils, and Impact; Impact has no separate in-panel updater.
+To update later, open **Roblox Animator Utils > Extension** and choose the update action. It replaces the single unified extension; Impact has no separate in-panel updater.
 
 The **Install Roblox Plugins** button opens the recommended [Roblox Blender Animation Tools](https://create.roblox.com/store/asset/118148792788940) and [companion animation plugin](https://create.roblox.com/store/asset/16708835782).
 
@@ -62,13 +62,11 @@ Advanced Mode is disabled by default. Enabling it exposes Materials, Miscellaneo
 
 ## Release File
 
-GitHub Releases contains the installer, while `src/` contains the two distinct runtime payloads it downloads:
+GitHub Releases contains one unified extension archive:
 
 | File | Purpose |
 | --- | --- |
-| GitHub Release asset: `staticaliza_blender_animation_tools.zip` | Installer/updater for Roblox Animator, Utils, and Impact |
-| `src/staticaliza_blender_animation_tools_utils.zip` | Roblox Animator Utils 1.7.0 only (`staticaliza_blender_animation_tools_utils`) |
-| `src/staticaliza_blender_animation_tools_impact.zip` | Roblox Animator Impact 1.0.0 only (`staticaliza_blender_animation_tools_impact`) |
+| GitHub Release asset: `staticaliza_blender_animation_tools.zip` | One installed extension containing Roblox Animator, Utils, and Impact |
 
 ## Author
 
