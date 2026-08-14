@@ -71,7 +71,7 @@ This project and its releases are authored by **Staticaliza** (`413584@gmail.com
 ## Credits
 
 - [Cautioned/Blender-Animations-Plugin](https://github.com/Cautioned/Blender-Animations-Plugin)
-- **Dynamic Parent 2.0.2** by Roman Volodin, updated for Blender 4.2 through 5.2 and Roblox animation export.
+- **Dynamic Parent 2.0.2**, updated for Blender 4.2 through 5.2 and Roblox animation export.
 
 ## License
 
