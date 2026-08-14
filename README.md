@@ -52,12 +52,9 @@ The **Install Roblox Plugins** button opens the recommended [Roblox Blender Anim
 | `Y` | Switch Global/Local orientation |
 | `Shift + Y` | Switch Bone/Object pivot |
 
-## Author
-
-This project and its releases are authored by **Staticaliza**.
-
 ## Credits
 
+- Project and releases authored by **Staticaliza**.
 - [Cautioned/Blender-Animations-Plugin](https://github.com/Cautioned/Blender-Animations-Plugin)
 - **Dynamic Parent 2.0.2**, updated for Blender 4.2 through 5.2 and Roblox animation export.
 
