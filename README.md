@@ -52,14 +52,6 @@ The **Install Roblox Plugins** button opens the recommended [Roblox Blender Anim
 | `Y` | Switch Global/Local orientation |
 | `Shift + Y` | Switch Bone/Object pivot |
 
-## Release File
-
-GitHub Releases contains one unified extension archive:
-
-| File | Purpose |
-| --- | --- |
-| GitHub Release asset: `staticaliza_blender_animation_tools.zip` | Lightweight host that downloads all three latest private runtimes |
-
 ## Author
 
 This project and its releases are authored by **Staticaliza**.
