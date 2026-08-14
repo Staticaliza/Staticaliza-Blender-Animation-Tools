@@ -35,15 +35,12 @@ The **Install Roblox Plugins** button opens the recommended [Roblox Blender Anim
 
 ## Features
 
-- **Animation Tools**: Dynamic Parent, Dynamic Unparent, Surface Contact, ragdoll, and camera tools.
-- **Active Armatures**: Work with multiple rigs in Pose Mode while inactive rigs stay visually separated.
-- **Rig Cleanup**: Remove imported rigs with one undoable action while preserving shared assets.
+- **Animation Tools**: Dynamic Parent, Dynamic Unparent, and ragdoll workflows.
+- **Active Armatures**: Work with multiple rigs in Pose Mode while inactive rigs stay visually separated, and remove imported rigs with one undoable cleanup action that preserves shared assets.
 - **Onion Tools**: Preview meshes and bones with selectable Onion Pins, Contact targets, and snap rings.
 - **Surface Contact**: Create and animate contacts with collision, sliding, tracking, and IK support.
-- **Impact Frames**: Author and preview impact-frame looks in the dedicated Roblox Animator Impact N-panel.
-- **Viewport Workflow**: Synchronize viewport and animation-editor settings across workspaces.
 - **Camera Tools**: Attach adjustable-FOV cameras to selected bones and keyframe camera views.
-- **Export**: Export dense relationship, contact, and layered animation data.
+- **Impact Frames**: Author and preview impact-frame looks in the dedicated Roblox Animator Impact N-panel.
 
 ## Shortcuts
 
