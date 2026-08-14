@@ -52,10 +52,6 @@ The **Install Roblox Plugins** button opens the recommended [Roblox Blender Anim
 | `Y` | Switch Global/Local orientation |
 | `Shift + Y` | Switch Bone/Object pivot |
 
-## Advanced Mode
-
-Advanced Mode is disabled by default. Enabling it exposes Materials, Miscellaneous, detailed Onion settings, material processing, Surface Contact filtering, manual Bake controls, rig-generation controls, helper visibility, and Roblox Animator's advanced panels.
-
 ## Release File
 
 GitHub Releases contains one unified extension archive:
@@ -66,7 +62,7 @@ GitHub Releases contains one unified extension archive:
 
 ## Author
 
-This project and its releases are authored by **Staticaliza** (`413584@gmail.com`).
+This project and its releases are authored by **Staticaliza**.
 
 ## Credits
 
