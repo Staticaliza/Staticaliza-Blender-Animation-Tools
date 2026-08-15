@@ -29,9 +29,9 @@ The setup downloads the latest Roblox Animator release and the latest Utils and 
 3. Choose **Install from Disk** and select the ZIP.
 4. Enable **Staticaliza's Blender Animation Tools** and allow online access. The lightweight host downloads and privately loads all three tools; no child extensions need to be installed separately.
 
-To update later, open **Roblox Animator Utils > Extension** and choose the update action. It downloads and hot-loads the latest versions of all three private runtimes; Impact has no separate in-panel updater.
+To update later, open **Roblox Animator > Configuration** and choose **Update Extensions**. It downloads and hot-loads the latest versions of all three private runtimes; Impact has no separate in-panel updater.
 
-The **Install Roblox Plugins** button opens the recommended [Roblox Blender Animation Tools](https://create.roblox.com/store/asset/118148792788940) and [**Blender Animations (ultimate edition)**](https://create.roblox.com/store/asset/16708835782/Blender-Animations-ultimate-edition).
+The **Install Roblox Plugins** button opens the recommended [Staticaliza's Blender Animation Tools](https://create.roblox.com/store/asset/118148792788940/Staticalizas-Blender-Animation-Tools) and [**Blender Animations (ultimate edition)**](https://create.roblox.com/store/asset/16708835782/Blender-Animations-ultimate-edition).
 
 ## Features
 
@@ -40,6 +40,7 @@ The **Install Roblox Plugins** button opens the recommended [Roblox Blender Anim
 - **Onion Tools**: Preview meshes and bones with selectable Onion Pins, Contact targets, and snap rings.
 - **Camera Tools**: Attach adjustable-FOV cameras to selected bones, keyframe camera views, switch bone/object pivots, and use Smart Draggers for guided transforms.
 - **Impact Tools**: Author and preview impact-frame looks in the dedicated Roblox Animator Impact N-panel.
+- **Animation Exchange**: Transfer animation and camera data between Roblox Studio and Blender.
 
 ## Shortcuts
 
