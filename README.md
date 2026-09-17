@@ -7,8 +7,8 @@
 One Blender extension provides three focused N-panels:
 
 - **Roblox Animator** — Cautioned's importer, rigging, animation, and export workflow.
-- **Roblox Animator Utils** — Staticaliza's animation, contact-pin, ragdoll, camera, onion-skin, and rig utilities.
-- **Roblox Animator Impact** — Staticaliza's anime impact-frame authoring and preview renderer.
+- **Roblox Animator Utils** — Staticaliza's animation, contact-pin, Smart Dragger, ragdoll, camera, onion-skin, and rig tools.
+- **Roblox Animator Impact** — Staticaliza's keyed anime impact frames, with subject and background lines, lighting, effects, live preview, and frame export.
 
 Blender Preferences shows one entry, **Staticaliza's Blender Animation Tools**. Its lightweight host downloads Roblox Animator, Utils, and Impact as private runtimes and retains three separate N-panel tabs.
 
@@ -20,7 +20,7 @@ The complete toolset supports **Blender 4.2 through Blender 5.2**. Most animatio
 - **Roblox Animator Impact:** 1.0.0
 - **Extension Setup:** 1.0.0
 
-The setup downloads the latest Roblox Animator release and the latest Utils and Impact packages from this repository's `src/`, then registers them in that order.
+The Setup extension installs the latest Roblox Animator release and the Utils and Impact runtime ZIPs from this repository's `src/`, then registers the three N-panels in that order. `src/` contains the two runtime ZIPs; the installable Setup ZIP is provided on the GitHub release page.
 
 ## Installation
 
@@ -29,17 +29,17 @@ The setup downloads the latest Roblox Animator release and the latest Utils and 
 3. Choose **Install from Disk** and select the ZIP.
 4. Enable **Staticaliza's Blender Animation Tools** and allow online access. The lightweight host downloads and privately loads all three tools; no child extensions need to be installed separately.
 
-To update later, open **Roblox Animator > Configuration** and choose **Update Extensions**. It downloads and hot-loads the latest versions of all three private runtimes; Impact has no separate in-panel updater.
+To update later, open **Roblox Animator > Configuration** and choose **Install Latest Extensions**. It downloads and hot-loads the latest Roblox Animator, Utils, and Impact runtimes; Impact has no separate in-panel updater.
 
 The **Install Roblox Plugins** button opens the recommended [Staticaliza's Blender Animation Tools](https://create.roblox.com/store/asset/118148792788940/Staticalizas-Blender-Animation-Tools) and [**Blender Animations (ultimate edition)**](https://create.roblox.com/store/asset/16708835782/Blender-Animations-ultimate-edition).
 
 ## Features
 
-- **Animation Tools**: Dynamic Parent, Dynamic Unparent, Surface Contact, and ragdoll workflows.
+- **Animation Tools**: Dynamic Parent, Dynamic Unparent, Surface Contact, keyframe-handle controls, and ragdoll workflows.
 - **Armature Tools**: Work with multiple rigs in Pose Mode while inactive rigs stay visually separated, and remove imported rigs with one undoable cleanup action that preserves shared assets.
 - **Onion Tools**: Preview meshes and bones with selectable Onion Pins, Contact targets, and snap rings.
-- **Camera Tools**: Attach adjustable-FOV cameras to selected bones, keyframe camera views, switch bone/object pivots, and use Smart Draggers for guided transforms.
-- **Impact Tools**: Author and preview impact-frame looks in the dedicated Roblox Animator Impact N-panel.
+- **Camera and Pin Tools**: Attach adjustable-FOV cameras to selected bones, keyframe camera views, switch bone/object pivots, and pose with Smart Draggers.
+- **Impact Tools**: Create keyed impact drawings from one or multiple rigs, adjust subject and background linework, lighting, shapes, and effects, then export frames from the dedicated Impact N-panel.
 - **Animation Exchange**: Transfer animation and camera data between Roblox Studio and Blender.
 
 ## Shortcuts
