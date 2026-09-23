@@ -22,6 +22,8 @@ The complete toolset supports **Blender 4.2 through Blender 5.2**. Most animatio
 
 The Setup extension installs the latest Roblox Animator release and the Utils and Impact runtime ZIPs from this repository's `src/`, then registers the three N-panels in that order. `src/` contains the two runtime ZIPs; the installable Setup ZIP is provided on the GitHub release page.
 
+The Setup release is a small installer. When enabled with online access, it fetches the current runtime ZIPs; later fixes to Utils and Impact can arrive without a new Setup version. The Roblox Animator version is selected from its upstream release at install time.
+
 ## Installation
 
 1. Download `staticaliza_blender_animation_tools.zip` from the [latest GitHub release](https://github.com/Staticaliza/Staticaliza-Blender-Animation-Tools/releases/latest).
@@ -35,7 +37,7 @@ The **Install Roblox Plugins** button opens the recommended [Staticaliza's Blend
 
 ## Features
 
-- **Animation Tools**: Dynamic Parent, Dynamic Unparent, Surface Contact, keyframe-handle controls, and ragdoll workflows.
+- **Animation Tools**: Dynamic Parent, Dynamic Unparent, pink Surface Contact pins, orange ragdoll pins, and keyframe-handle controls. An active ragdoll controls a bone's motion when that bone also has Surface Contact.
 - **Armature Tools**: Work with multiple rigs in Pose Mode while inactive rigs stay visually separated, and remove imported rigs with one undoable cleanup action that preserves shared assets.
 - **Onion Tools**: Preview meshes and bones with selectable Onion Pins, Contact targets, and snap rings.
 - **Camera and Pin Tools**: Attach adjustable-FOV cameras to selected bones, keyframe camera views, switch bone/object pivots, and pose with Smart Draggers.
@@ -57,8 +59,8 @@ The **Install Roblox Plugins** button opens the recommended [Staticaliza's Blend
 
 - Project and releases authored by **Staticaliza**.
 - [Cautioned/Blender-Animations-Plugin](https://github.com/Cautioned/Blender-Animations-Plugin)
-- **Dynamic Parent 2.0.2**, updated for Blender 4.2 through 5.2 and Roblox animation export.
+- **Dynamic Parent**, integrated with Roblox animation export.
 
 ## License
 
-Roblox Animator Utils and Roblox Animator Impact are distributed under the GNU General Public License v2.0 or later.
+The Setup, Utils, and Impact package manifests declare GNU General Public License v2.0 or later. The repository's [LICENSE](LICENSE) file contains GNU General Public License v3.0 text.
