@@ -6,11 +6,11 @@
 
 One Blender extension provides three focused N-panels:
 
-- **Roblox Animator** — Cautioned's importer, rigging, animation, and export workflow.
+- **RBXMonkey** — Cautioned's importer, rigging, animation, and export workflow.
 - **Roblox Animator Utils** — Staticaliza's animation, contact-pin, Smart Dragger, ragdoll, camera, onion-skin, and rig tools.
 - **Roblox Animator Impact** — Staticaliza's keyed anime impact frames, with subject and background lines, lighting, effects, live preview, and frame export.
 
-Blender Preferences shows one entry, **Staticaliza's Blender Animation Tools**. Its lightweight host downloads Roblox Animator, Utils, and Impact as private runtimes and retains three separate N-panel tabs.
+Blender Preferences shows one entry, **Staticaliza's Blender Animation Tools**. Its lightweight host downloads RBXMonkey, Utils, and Impact as private runtimes and retains three separate N-panel tabs.
 
 The complete toolset supports **Blender 4.2 through Blender 5.2**. Most animation tools are intended for Pose Mode.
 
@@ -20,9 +20,9 @@ The complete toolset supports **Blender 4.2 through Blender 5.2**. Most animatio
 - **Roblox Animator Impact:** 1.0.0
 - **Extension Setup:** 1.0.0
 
-The Setup extension installs the latest Roblox Animator release and the Utils and Impact runtime ZIPs from this repository's `src/`, then registers the three N-panels in that order. `src/` contains the two runtime ZIPs; the installable Setup ZIP is provided on the GitHub release page.
+The Setup extension installs the latest RBXMonkey release and the Utils and Impact runtime ZIPs from this repository's `src/`, then registers the three N-panels in that order. `src/` contains the two runtime ZIPs; the installable Setup ZIP is provided on the GitHub release page.
 
-The Setup release is a small installer. When enabled with online access, it fetches the current runtime ZIPs; later fixes to Utils and Impact can arrive without a new Setup version. The Roblox Animator version is selected from its upstream release at install time.
+The Setup release is a small installer. When enabled with online access, it fetches the current runtime ZIPs; later fixes to Utils and Impact can arrive without a new Setup version. The RBXMonkey version is selected from its upstream release at install time.
 
 ## Installation
 
@@ -31,9 +31,9 @@ The Setup release is a small installer. When enabled with online access, it fetc
 3. Choose **Install from Disk** and select the ZIP.
 4. Enable **Staticaliza's Blender Animation Tools** and allow online access. The lightweight host downloads and privately loads all three tools; no child extensions need to be installed separately.
 
-To update later, open **Roblox Animator > Configuration** and choose **Install Latest Extensions**. It downloads and hot-loads the latest Roblox Animator, Utils, and Impact runtimes; Impact has no separate in-panel updater.
+To update later, open **RBXMonkey > Configuration** and choose **Install Latest Extensions**. It downloads and hot-loads the latest RBXMonkey, Utils, and Impact runtimes; Impact has no separate in-panel updater.
 
-The **Install Roblox Plugins** button opens the recommended [Staticaliza's Blender Animation Tools](https://create.roblox.com/store/asset/118148792788940/Staticalizas-Blender-Animation-Tools) and [**Blender Animations (ultimate edition)**](https://create.roblox.com/store/asset/16708835782/Blender-Animations-ultimate-edition).
+The **Install Roblox Plugins** button opens the recommended [Staticaliza's Blender Animation Tools](https://create.roblox.com/store/asset/118148792788940/Staticalizas-Blender-Animation-Tools) and [**RBXMonkey**](https://create.roblox.com/store/asset/16708835782/).
 
 ## Features
 
