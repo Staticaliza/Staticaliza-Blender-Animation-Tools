@@ -4,15 +4,13 @@
   <img src="docs/logo.png" alt="Staticaliza's Blender Animation Tools">
 </p>
 
-One Blender extension provides three focused N-panels:
+The extension adds three tabs to Blender's sidebar:
 
-- **RBXMonkey** — Cautioned's importer, rigging, animation, and export workflow.
-- **Roblox Animator Utils** — Staticaliza's animation, contact-pin, Smart Dragger, ragdoll, camera, onion-skin, and rig tools.
-- **Roblox Animator Impact** — Staticaliza's keyed anime impact frames, with subject and background lines, lighting, effects, live preview, and frame export.
+- **Roblox Animator** — import, rig, animate, and export Roblox characters.
+- **Roblox Animator Utils** — extra animation, posing, camera, and rig tools.
+- **Roblox Animator Impact** — create and export anime-style impact frames.
 
-Blender Preferences shows one entry, **Staticaliza's Blender Animation Tools**. Its lightweight host downloads RBXMonkey, Utils, and Impact as private runtimes and retains three separate N-panel tabs.
-
-The complete toolset supports **Blender 4.2 through Blender 5.2**. Most animation tools are intended for Pose Mode.
+Supports **Blender 4.2 through Blender 5.2**. Most animation tools work in Pose Mode.
 
 ## Current Versions
 
@@ -20,29 +18,27 @@ The complete toolset supports **Blender 4.2 through Blender 5.2**. Most animatio
 - **Roblox Animator Impact:** 1.0.0
 - **Extension Setup:** 1.0.0
 
-The Setup extension installs the latest RBXMonkey release and the Utils and Impact runtime ZIPs from this repository's `src/`, then registers the three N-panels in that order. `src/` contains the two runtime ZIPs; the installable Setup ZIP is provided on the GitHub release page.
-
-The Setup release is a small installer. When enabled with online access, it fetches the current runtime ZIPs; later fixes to Utils and Impact can arrive without a new Setup version. The RBXMonkey version is selected from its upstream release at install time.
-
 ## Installation
 
 1. Download `staticaliza_blender_animation_tools.zip` from the [latest GitHub release](https://github.com/Staticaliza/Staticaliza-Blender-Animation-Tools/releases/latest).
 2. In Blender, open **Edit > Preferences > Get Extensions**.
 3. Choose **Install from Disk** and select the ZIP.
-4. Enable **Staticaliza's Blender Animation Tools** and allow online access. The lightweight host downloads and privately loads all three tools; no child extensions need to be installed separately.
+4. Enable **Staticaliza's Blender Animation Tools** and allow online access to install all three tools.
 
-To update later, open **RBXMonkey > Configuration** and choose **Install Latest Extensions**. It downloads and hot-loads the latest RBXMonkey, Utils, and Impact runtimes; Impact has no separate in-panel updater.
+To update, open **Roblox Animator > Configuration** and click **Install Latest Extensions**.
 
 The **Install Roblox Plugins** button opens the recommended [Staticaliza's Blender Animation Tools](https://create.roblox.com/store/asset/118148792788940/Staticalizas-Blender-Animation-Tools) and [**RBXMonkey**](https://create.roblox.com/store/asset/16708835782/).
 
+To bring a rig into Blender, select it in Roblox Studio and click **Export Rig**. Save the `.obj` and its accompanying files, then click **Import Rig** in Blender and select the `.obj`.
+
 ## Features
 
-- **Animation Tools**: Dynamic Parent, Dynamic Unparent, pink Surface Contact pins, orange ragdoll pins, and keyframe-handle controls. An active ragdoll controls a bone's motion when that bone also has Surface Contact.
-- **Armature Tools**: Work with multiple rigs in Pose Mode while inactive rigs stay visually separated, and remove imported rigs with one undoable cleanup action that preserves shared assets.
-- **Onion Tools**: Preview meshes and bones with selectable Onion Pins, Contact targets, and snap rings.
-- **Camera and Pin Tools**: Attach adjustable-FOV cameras to selected bones, keyframe camera views, switch bone/object pivots, and pose with Smart Draggers.
-- **Impact Tools**: Create keyed impact drawings from one or multiple rigs, adjust subject and background linework, lighting, shapes, and effects, then export frames from the dedicated Impact N-panel.
-- **Animation Exchange**: Transfer animation and camera data between Roblox Studio and Blender.
+- **Animation**: Use Dynamic Parent, Surface Contact, ragdoll pins, and keyframe controls.
+- **Rigging and posing**: Work with multiple rigs, use Smart Draggers, and remove imported rigs.
+- **Onion Skin**: Preview earlier and later poses with mesh and bone overlays.
+- **Cameras**: Attach cameras to bones and keyframe camera views.
+- **Impact frames**: Add animated lines, lighting, and effects, then export the frames.
+- **Import and export**: Bring rigs into Blender and move animations and camera data between Blender and Roblox Studio.
 
 ## Shortcuts
 
