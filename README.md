@@ -55,7 +55,7 @@ To bring a rig into Blender, select it in Roblox Studio and click **Export Rig**
 
 - Project and releases authored by **Staticaliza**.
 - [Cautioned/Blender-Animations-Plugin](https://github.com/Cautioned/Blender-Animations-Plugin)
-- **Dynamic Parent**, integrated with Roblox animation export.
+- [romanvolodin/dynamic_parent](https://github.com/romanvolodin/dynamic_parent)
 
 ## License
 
