@@ -27,7 +27,7 @@ Supports **Blender 4.2 through Blender 5.2**. Most animation tools work in Pose 
 
 To update, open **Roblox Animator > Configuration** and click **Install Latest Extensions**.
 
-We recommend installing the [Staticaliza's Blender Animation Tools](https://create.roblox.com/store/asset/118148792788940/Staticalizas-Blender-Animation-Tools) and [RBXMonkey](https://create.roblox.com/store/asset/16708835782/) plugins in Roblox Studio.
+Recommended Roblox Studio plugins include [Staticaliza's Blender Animation Tools](https://create.roblox.com/store/asset/118148792788940/Staticalizas-Blender-Animation-Tools) and [RBXMonkey](https://create.roblox.com/store/asset/16708835782/).
 
 ## Features
 
