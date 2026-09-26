@@ -27,9 +27,7 @@ Supports **Blender 4.2 through Blender 5.2**. Most animation tools work in Pose 
 
 To update, open **Roblox Animator > Configuration** and click **Install Latest Extensions**.
 
-The **Install Roblox Plugins** button opens the recommended [Staticaliza's Blender Animation Tools](https://create.roblox.com/store/asset/118148792788940/Staticalizas-Blender-Animation-Tools) and [**RBXMonkey**](https://create.roblox.com/store/asset/16708835782/).
-
-To bring a rig into Blender, select it in Roblox Studio and click **Export Rig**. Save the `.obj` and its accompanying files, then click **Import Rig** in Blender and select the `.obj`.
+It is recommended to install these Roblox plugins: [Staticaliza's Blender Animation Tools](https://create.roblox.com/store/asset/118148792788940/Staticalizas-Blender-Animation-Tools) and [RBXMonkey](https://create.roblox.com/store/asset/16708835782/).
 
 ## Features
 
