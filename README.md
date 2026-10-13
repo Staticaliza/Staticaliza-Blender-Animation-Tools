@@ -1,4 +1,4 @@
-# Staticaliza's Blender Animation Tools for Roblox
+# [OFFICIAL RELEASE] Staticaliza's Blender Animation Tools for Roblox
 
 <p align="center">
   <img src="docs/logo.png" alt="Staticaliza's Blender Animation Tools">
@@ -31,12 +31,12 @@ It is **highly recommended** to install the [Staticaliza's Blender Animation Too
 
 ## Features
 
-- **Animation**: Use Dynamic Parent, Surface Contact, ragdoll pins, and keyframe controls.
+- **Animation**: Use unparenting, parenting, surface contact, ragdoll, and other keyframe/bone controls.
 - **Rigging and posing**: Work with multiple rigs, use Smart Draggers, and remove imported rigs.
-- **Onion Skin**: Preview earlier and later poses with mesh and bone overlays.
+- **Onion**: Preview earlier and later poses with mesh and bone overlays with onion skins/pins.
 - **Cameras**: Attach cameras to bones and keyframe camera views.
-- **Impact frames**: Add animated lines, lighting, and effects, then export the frames.
-- **Import and export**: Bring rigs into Blender and move animations and camera data between Blender and Roblox Studio.
+- **Impact frames**: Add anime-style graphic overlay and effects, then export the frames.
+- **Import and export**: Bring rigs accurately into Blender and move animations/camera data between Blender and Roblox Studio.
 
 ## Shortcuts
 
