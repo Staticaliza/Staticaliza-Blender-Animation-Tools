@@ -47,8 +47,8 @@ It is **highly recommended** to install the [Staticaliza's Blender Animation Too
 | `Shift + F` | Create or manage Onion Pins |
 | `Ctrl + F` | Open Animation Tools |
 | `Y` | Switch Global/Local orientation |
-| `Shift + Y` | Switch Bone/Object pivot |
-| `Ctrl + Y` | Switch Move/Rotate gizmo |
+| `Ctrl + Y` | Switch Bone/Object pivot |
+| `Shift + Y` | Switch Move/Rotate gizmo |
 
 ## Credits
 
