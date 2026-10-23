@@ -31,9 +31,10 @@ It is **highly recommended** to install the [Staticaliza's Blender Animation Too
 
 ## Features
 
-- **Animation**: Use Dynamic Parent, Dynamic Unparent, Collision, Gyro, and Ragdoll with Key Start, Key End, and Key Split controls.
-- **Rigging and posing**: Work with multiple rigs, use Smart Draggers, and switch transform orientation and Bone/Object pivots.
-- **Onion skins and pins**: Preview poses in Single or Multiple mode, and keep reference poses with Onion Pins.
+- **Animation**: Use Dynamic Parent, Dynamic Unparent, IK, Collision, Gyro, and Ragdoll with Key Start, Key End, and Key Split controls.
+- **Rigging and posing**: Work with multiple rigs and custom bone chains, use Smart Draggers, and switch transform orientation and Bone/Object pivots.
+- **Mirror paste**: Transfer poses and pins between matching sides, including custom rigs. Bone transforms and pin targets remain separate clipboard components; automatic matching uses rig geometry and naming clues.
+- **Onion skins and pins**: Preview poses in Single or Multiple mode, and keep reference poses with Onion Pins. In Multiple mode, **Step -** and **Step +** control how many previous and next keyed poses are shown. Both start at 1. The sidebar and **Onion Skin** redo panel share these settings.
 - **Cameras**: Attach cameras to bones and keyframe camera views.
 - **Impact frames**: Create anime-style linework with lighting, shapes, effects, and live previews, then export PNG sequences.
 - **Import and export**: Import Roblox rigs and move animations and camera data between Blender and Roblox Studio.
